@@ -16,19 +16,20 @@ public class Main {
 
         //part three & four
 
-//        int [] userArray = new int[10];
-//        double sum1 = 0;
-//        for(int i = 0; i<10; i++ ){
-//            Scanner key = new Scanner(System.in);
-//            System.out.println("Enter a number");
-//            int userInput = key.nextInt();
-//            userArray[i]=userInput;
-//            sum1 = sum1+userArray[i];
-//
-//
-//        }
-//        System.out.println(sum1);
-//        System.out.println(sum1/userArray.length);
+        int [] userArray = new int[10];
+        double sum1 = 0;
+        System.out.println("Enter 10 numbers");
+        for(int i = 0; i<10; i++ ){
+            Scanner key = new Scanner(System.in);
+
+            int userInput = key.nextInt();
+            userArray[i]=userInput;
+            sum1 = sum1+userArray[i];
+
+
+        }
+        System.out.println(sum1);
+        System.out.println(sum1/userArray.length);
 
      // part five
 
