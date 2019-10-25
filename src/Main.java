@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Main {
@@ -15,19 +16,19 @@ public class Main {
 
         //part three & four
 
-        int [] userArray = new int[10];
-        double sum1 = 0;
-        for(int i = 0; i<10; i++ ){
-            Scanner key = new Scanner(System.in);
-            System.out.println("Enter a number");
-            int userInput = key.nextInt();
-            userArray[i]=userInput;
-            sum1 = sum1+userArray[i];
-
-
-        }
-        System.out.println(sum1);
-        System.out.println(sum1/userArray.length);
+//        int [] userArray = new int[10];
+//        double sum1 = 0;
+//        for(int i = 0; i<10; i++ ){
+//            Scanner key = new Scanner(System.in);
+//            System.out.println("Enter a number");
+//            int userInput = key.nextInt();
+//            userArray[i]=userInput;
+//            sum1 = sum1+userArray[i];
+//
+//
+//        }
+//        System.out.println(sum1);
+//        System.out.println(sum1/userArray.length);
 
      // part five
 
@@ -38,6 +39,7 @@ public class Main {
         //part
 
         int [] array1 = new int[]{1,7,6,5,9};
+        System.out.println(Arrays.toString(array1));
         int [] array2 = new int[]{2,7,6,3,4};
         for (int i = 0; i<array1.length; i++){
             for(int j=0; j<array2.length; j++){
